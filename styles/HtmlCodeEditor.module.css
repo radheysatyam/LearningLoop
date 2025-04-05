@@ -1,0 +1,31 @@
+.code_nav{
+  padding: 15px;
+  width: 100%;
+  height: 60px;
+}
+.code_editor {
+  /* display: flex; */
+  width: 100%;
+  padding: 10px;
+}
+
+.code_field {
+  z-index: -1;
+  /* width: 50%; */
+  margin: 0 10px;
+}
+
+
+.code_output {
+  background-color: white;
+  /* width: 50%; */
+  margin: 10px;
+}
+
+.run {
+  margin: 5px;
+}
+
+.rpbprogress {
+  color: rgb(0, 0, 0);
+}

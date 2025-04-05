@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.active {
+  background-color: rgb(89, 89, 89) !important;
+  color: white !important;
+}
+
+.introlight,
+.introdark {
+  display: flex;
+  /* z-index: 1; */
+  background-color: #0f0818;
+  max-height: 1500px;
+  z-index: -1;
+}
+
+.introcontlight,
+.introcontdark {
+  /* color: white; */
+  text-align: left;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  width: 80%;
+  min-height: 600px;
+  z-index: 2;
+}
+
+.introlight img,
+.introdark img {
+  position: absolute;
+  left: 0;
+}
+
+.introcontlight h1 b,
+.introcontdark h1 b {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #00DBDE;
+}
+
+.introcontlight h1,
+.introcontdark h1 {
+  color: #ffffff;
+}
+
+.introcontlight p,
+.introcontdark p {
+  letter-spacing: 2px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5rem !important;
+}
+
+.introcontlight p,
+.introcontdark p {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 2px;
+  padding-right: 20px;
+  max-width: 70%;
+}
+
+.introcontlight span,
+.introcontdark span {
+  color: #00DBDE;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.typer div span {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #00DBDE;
+}
+
+.photo {
+  position: absolute;
+  max-width: 100%;
+  right: 0;
+  z-index: 1;
+  top: 0;
+}
+
+.photo1 {
+  display: none;
+}
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.button {
+  width: 150px;
+}
+
+.youtube h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000000;
+}
+
+.youtube p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+}
+
+.youtube {
+  margin-top: 150px !important;
+  max-width: 95%;
+  margin: auto;
+}
+
+.contyoutube {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.youtubevideoslight {
+  backdrop-filter: blur(10px);
+  background-color: #ffffff;
+  width: 380px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  margin: 0 10px;
+}
+
+.youtubevideosdark {
+  backdrop-filter: blur(10px);
+  background-color: #20232a;
+  width: 380px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 5px;
+  margin: 0 10px;
+}
+
+.contyoutubevideoslight,
+.contyoutubevideosdark {
+  width: 100%;
+  display: flex;
+  /* margin: auto !important; */
+  justify-content: space-evenly;
+}
+
+.youtubevideoslight div p,
+.youtubevideosdark div p {
+  max-height: 300px;
+}
+
+.youtubevideoslight div button,
+.youtubevideosdark div button {
+  max-height: 40px;
+}
+
+.videos {
+  width: 380px;
+  height: 225px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.watch {
+  width: 150px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+}
+
+.watchButton {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
+.videotextlight,
+.videotextdark {
+  max-height: 300px;
+}
+
+.videotextlight p {
+  color: #000000;
+  font-weight: bold;
+}
+
+.videotextdark p {
+  color: #ffffff;
+}
+
+.videotextlight h4 {
+  color: black;
+}
+
+.videotextdark h4 {
+  color: rgb(255, 255, 255);
+}
+
+.htmlBoxLight,.htmlBoxDark,.cssBoxLight,.cssBoxDark,.jsBoxLight,.jsBoxDark{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.htmlBoxLight div,.htmlBoxDark div,.cssBoxLight div,.cssBoxDark div,.jsBoxLight div,.jsBoxDark div{
+  width: 40%;
+  margin: 10px;
+}
+
+.waveBoxLight svg path{
+  fill: #273036 !important;
+}
+
+.waveBoxDark svg path{
+  fill: #9c9c9c !important;
+}
+
+.htmlSyntaxLight,.cssSyntaxLight{
+  background-color: #D9EEE1;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #000000;
+  padding: 20px;
+}
+
+.htmlSyntaxDark,.cssSyntaxDark{
+  background-color: #535965;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #ffffff;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px){
+  .htmlBoxDark,.htmlBoxLight,.cssBoxDark,.cssBoxLight,.jsBoxLight,.jsBoxDark{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .htmlBoxDark input,.htmlBoxLight input,.cssBoxDark input,.cssBoxLight input,.jsBoxLight input,.jsBoxDark input,.htmlSyntaxDark input,.htmlSyntaxLight input,.cssSyntaxDark input,.cssSyntaxLight input,.jsSyntaxLight input,.jsSyntaxDark input{
+    max-width: 150px !important;
+  }
+
+  .htmlBoxDark h2,.htmlBoxLight h2,.cssBoxDark h2,.cssBoxLight h2,.jsBoxLight h2,.jsBoxDark h2{
+    font-size: 30px !important;
+  }
+
+  .htmlBoxLight div,.htmlBoxDark div,.cssBoxLight div,.cssBoxDark div,.jsBoxLight div,.jsBoxDark div{
+    width: 100%;
+    margin: auto;
+  }  
+}
+  
+@media screen and (max-width: 767px) {
+  .contyoutubevideosdark,.contyoutubevideoslight{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .youtubevideosdark,.youtubevideoslight{
+    margin: 10px auto;
+  }
+
+  .photo1 {
+    rotate: -90deg;
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin-right: auto;
+    opacity: 0.4;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .introcontlight,
+  .introcontdark {
+    text-align: center;
+    width: 100%;
+  }
+
+  .introcontlight p,
+  .introcontdark p {
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 1223px) {
+  .videos {
+    width: 240px;
+    height: 160px;
+  }
+
+  .youtubevideosdark,.youtubevideoslight{
+    width: 240px;
+  }
+
+}

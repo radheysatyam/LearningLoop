@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 100px !important;
+  background-color: #20232a;
+  
+}
+
+.containerFluid {
+  text-decoration: none;
+}
+
+.containerFluid:hover {
+  text-decoration: none;
+}
+
+.logos div a button i{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}

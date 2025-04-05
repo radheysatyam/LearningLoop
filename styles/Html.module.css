@@ -1,0 +1,174 @@
+.sidebardark {
+    background-color: #0a1014;
+}
+
+.sidebarlight{
+    background-color: #fcfcfc;
+}
+
+.sidebarlight, .sidebardark{
+    margin-top: -10px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 350px;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+
+.sidebardark h3 {
+    color: rgb(255, 255, 255);
+    padding-left: 32px;
+    margin-top: 15px;
+}
+
+.sidebarlight h3{
+    color: black;
+    padding-left: 32px;
+    margin-top: 15px;
+}
+
+.sidebardark a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* font-size: 15px; */
+    margin-left: 15px;
+    padding: 2px 15px 1px 16px;
+}
+
+.sidebarlight a{
+  color: black;
+  text-decoration: none;
+    /* font-size: 15px; */
+    margin-left: 15px;
+    padding: 2px 15px 1px 16px;
+}
+.learncont{
+    /* padding-top: 120px; */
+    width: 100%;
+    margin-left: 350px;
+}
+
+
+.sidebarlight a:hover,.sidebardark a:hover {
+    background-color: #5e6060 !important;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 991px) {
+    .sidebarlight,.sidebardark{
+        position: sticky;
+        /* width: 250px; */
+        width: 0;
+        transition: 0.2s;
+    }
+
+    .sideopen {
+        position: absolute;
+        width: 200px;
+        transition: 0.2s;
+    }
+    .learncont{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
+
+.nextprev {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    /* Add space between playlist and navigation buttons */
+}
+
+/* Html-Home */
+.h2html {
+    margin-top: 20px;
+  }
+
+.learn {
+    display: flex;
+}
+
+.learncont {
+    /* width: 75%; */
+    /* max-height: 600px; */
+    overflow-y: auto;
+}
+
+.languegecourse {
+    margin-top: 10px;
+    background-image: linear-gradient( 65.9deg,  rgb(1, 80, 77) 5.5%, rgba(16, 8, 159, 0.74) 54.2%, rgb(5, 93, 120) 55.2%, rgb(85, 2, 113) 98.4% );
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.docpage p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.docpage {
+    margin: 25px 0;
+}
+
+.button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .button {
+    width: 80px;
+  }
+
+@media screen and (max-width: 991px) {
+    .learncont{
+        width: 100%;
+    }
+}
+
+.learncont::-webkit-scrollbar {
+    width: 12px;     /* width of the entire scrollbar */
+  }
+  .learncont::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  .learncont::-webkit-scrollbar-thumb {
+    background-color: rgb(195, 195, 195);    /* color of the scroll thumb */
+    border-radius: 4px;       
+  }
+  
+  .learncont::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(95, 95, 95);      
+  }
+  
+  .sidebardark::-webkit-scrollbar {
+    width: 12px;
+  }
+  .sidebardark::-webkit-scrollbar-track{
+    background: rgb(130, 130, 130);        /* color of the tracking area */
+  }
+  .sidebardark::-webkit-scrollbar-thumb{
+    background-color: rgb(57, 57, 57);    /* color of the scroll thumb */
+    border-radius: 4px;       
+  }
+
+  .sidebarlight::-webkit-scrollbar {
+    width: 12px;
+  }
+  .sidebarlight::-webkit-scrollbar-track{
+    background: rgb(201, 193, 193);        /* color of the tracking area */
+  }
+  .sidebarlight::-webkit-scrollbar-thumb{
+    background-color: rgb(138, 137, 137);    /* color of the scroll thumb */
+    border-radius: 4px;       
+  }
